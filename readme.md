@@ -5,6 +5,9 @@ la llave rsa esta en el proyecto
 en caso contrario
 no le puse contraseña a ningun archivo
 
+vagrant ssh establece la coneccion con el servidor 
+y cd code para acceder a la carpeta del proyecto
+
 ###Configuracion del archivo host  ###
 192.168.10.12 pizzaapi.test | " esa direccion ip es la misma que el documento homstead.yaml"
 
