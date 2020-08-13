@@ -1,5 +1,5 @@
-
-"Este proyecto fue desarrollado usando Laravel 5.4 y homeStead"
+Este proyecto se realizo con Larvel 5.4
+Este proyecto fue desarrollado usando Laravel 5.4 y homeStead
 
 
 ###Configuracion del archivo host  ###
@@ -15,7 +15,10 @@ este comando comenzara a instalar todas las dependencias necesarias para el test
 
 
 
+
 Las pruebas se realizaron con Postman
+
+Rutas de ejemplo
 
 #direccion principal de la API 
 pizzaapi.test
@@ -47,3 +50,4 @@ pizzaapi.test/productstop
 
 #Listado de resturantes
 pizzaapi.test/restaurantes
+
