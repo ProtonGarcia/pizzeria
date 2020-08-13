@@ -1,6 +1,9 @@
 Este proyecto se realizo con Larvel 5.4
 Este proyecto fue desarrollado usando Laravel 5.4 y homeStead
 
+la llave rsa esta en el proyecto
+en caso contrario
+no le puse contraseña a ningun archivo
 
 ###Configuracion del archivo host  ###
 192.168.10.12 pizzaapi.test | " esa direccion ip es la misma que el documento homstead.yaml"
