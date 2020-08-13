@@ -1,4 +1,20 @@
 
+"Este proyecto fue desarrollado usando Laravel 5.4 y homeStead"
+
+
+###Configuracion del archivo host  ###
+192.168.10.12 pizzaapi.test | " esa direccion ip es la misma que el documento homstead.yaml"
+
+Para instalar la maquina virtual de homestead es necesario abrir una de powershell en el directori raiz de la aplicacion
+y ejecutar el comando " vagrant up "
+este comando comenzara a instalar todas las dependencias necesarias para el testeo de la aplicacion
+
+#este comando " php artisan migrate:refresh --seed "  va a refresca la estructura de las migraciones,
+#borrando todas las migraciones que se hayan realizado dejando la base de datos vacia
+#luego ejecuta las nuevas migraciones y luego de esto ejecutara los seeders
+
+
+
 Las pruebas se realizaron con Postman
 
 #direccion principal de la API 
@@ -18,7 +34,7 @@ pizzaapi.test/products/5/clientes/2/orders
 
 
 ###historial ordenes###
-# "el id del cliente varia por los seeds"
+# el id del cliente varia por los seeds
 pizzaapi.test/clientes/94/orders
 
 
